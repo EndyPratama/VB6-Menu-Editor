@@ -1,0 +1,3 @@
+The cab file for your application has been built as 'C:\Users\ACER\Documents\Kuliah\smt 7\Pemrograman API\Pertemuan 2 - 9 September 2021\Installer jadi\LuasKelilingDatar.CAB'.
+
+There is also a batch file in the support directory (C:\Users\ACER\Documents\Kuliah\smt 7\Pemrograman API\Pertemuan 2 - 9 September 2021\Installer jadi\Support\LuasKelilingDatar.BAT) that will allow you to recreate the cab file in case you make changes to some of the files.

@@ -1,0 +1,88 @@
+[Root]
+Most Recent Package=Standard Setup Package 1
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Users\ACER\Documents\Kuliah\smt 7\Pemrograman API\Pertemuan 2 - 9 September 2021\Installer jadi
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+
+[Package|Standard Setup Package 1|Files Added]
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+C:\Users\ACER\Documents\Kuliah\smt 7\Pemrograman API\Pertemuan 2 - 9 September 2021\Luas dan Keliling Bangun Datar\LuasKelilingDatar.exe=Yes
+C:\Windows\System32\msvbvm60.dll=Yes
+C:\Windows\System32\oleaut32.dll=Yes
+C:\Windows\System32\olepro32.dll=Yes
+C:\Windows\System32\asycfilt.dll=Yes
+C:\Windows\System32\stdole2.tlb=Yes
+C:\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Windows\System32\VB6STKIT.DLL=Yes
+C:\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+C:\Users\ACER\Documents\Kuliah\smt 7\Pemrograman API\Pertemuan 2 - 9 September 2021\Luas dan Keliling Bangun Datar\LuasKelilingDatar.exe=$(AppPath)
+C:\Windows\System32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Windows\System32\oleaut32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\olepro32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\asycfilt.dll=$(WinSysPathSysFile)
+C:\Windows\System32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\Windows\System32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+C:\Users\ACER\Documents\Kuliah\smt 7\Pemrograman API\Pertemuan 2 - 9 September 2021\Luas dan Keliling Bangun Datar\LuasKelilingDatar.exe=Yes
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=Kalkulator Luas dan Keliling
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=Kalkulator Luas dan Keliling
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|Kalkulator Luas dan Keliling]
+Icon1=LuasKelilingDatar.exe
+Title1=Kalkulator Luas dan Keliling
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=C:\Users\ACER\Documents\Kuliah\smt 7\Pemrograman API\Pertemuan 2 - 9 September 2021\Installer jadi
+ProjectFolder=C:\Users\ACER\Documents\Kuliah\smt 7\Pemrograman API\Pertemuan 2 - 9 September 2021\Luas dan Keliling Bangun Datar
+ServerSideCab=
+File1=C:\Users\ACER\Documents\Kuliah\smt 7\Pemrograman API\Pertemuan 2 - 9 September 2021\Installer jadi\setup.exe
+File2=C:\Users\ACER\Documents\Kuliah\smt 7\Pemrograman API\Pertemuan 2 - 9 September 2021\Installer jadi\Setup.Lst
+File3=C:\Users\ACER\Documents\Kuliah\smt 7\Pemrograman API\Pertemuan 2 - 9 September 2021\Installer jadi\LuasKelilingDatar.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
